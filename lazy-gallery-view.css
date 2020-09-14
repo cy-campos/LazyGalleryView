@@ -1,0 +1,39 @@
+lazy-gallery {
+    max-width: 100%;
+}
+
+lazy-gallery scroll-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+lazy-gallery scroll-container img {
+
+}
+
+lazy-gallery thumbnail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+lazy-gallery thumbnail-container img {
+    border-color: white;
+    border-style: solid;
+}
+
+lazy-gallery thumbnail-container img[active] {
+    border-color: yellow;
+}
+
+lazy-gallery description {
+    display: block;
+}
+
+/* html */
+body { 
+    margin: 0;
+    padding: 0;
+}
