@@ -9,7 +9,7 @@ lazy-gallery scroll-container {
 }
 
 lazy-gallery scroll-container img {
-
+    max-width: 100%;
 }
 
 lazy-gallery thumbnail-container {
